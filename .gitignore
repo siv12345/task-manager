@@ -1,3 +1,6 @@
+# excluding playground file
+playground/
+
 # Logs
 logs
 *.log
