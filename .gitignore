@@ -1,5 +1,4 @@
-# excluding playground file
-playground/
+config
 
 # Logs
 logs
