@@ -4,8 +4,8 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY)
 
 const sendWelcomeEmail = (email, name) => {
     sgMail.send({
-        // to: email,
-        to: 'babu.sivasurya@gmail.com',
+        to: email,
+        // to: 'babu.sivasurya@gmail.com',
         from: 'task-app@sivasurya.xyz',
         subject: 'Welcome to the Task App',
         text: `Welcome to the app ${name}. Let me know how you are liking the app`
